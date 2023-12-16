@@ -14,7 +14,7 @@ header .logo{
 }
 
 .panel-heading{
-	background-image: linear-gradient(#0594d6, #216bb1 60%, #510cf3);
+	background-image: linear-gradient(#0594d6, #216bb1 85%, #4e26ac);
 	color:#fff !important;
 }
 
@@ -134,7 +134,7 @@ header .logo{
 	list-style: none;
 	float:left;
 	margin:5px;
-	width:23%;
+	width:50%;
 }
 
 .photos img{
@@ -151,10 +151,43 @@ footer{
 	margin-top:30px;
 	border-top:3px solid rgb(60, 22, 197);
 }
+.signup {
+	width:50%;
+}
 
-
-@media(min-width: 991px){
+@media(max-width: 991px){
 	.members p{
 		padding-top:40px;
 	}
+	.signup {
+		width:75%;
+	}
+	.members img
+	{
+		width:74%;
+       margin-left:13%;
+	   margin-right:13%;     
+	}
+	.photos li{
+		list-style: none;
+		/* float:left; */
+		margin:auto;
+		width:90%;
+	}
+	
+	.photos img{
+		width:100%;
+	}
+	.profile img
+	{
+		width:74%;
+       margin-left:13%;
+	   margin-right:13%;     
+	}
+	.mob
+	{
+		width:74%;
+       margin-left:13%;
+	   margin-right:13%;     
+	} 
 }
