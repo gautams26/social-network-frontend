@@ -159,23 +159,23 @@ footer{
 	.members p{
 		padding-top:40px;
 	}
-	.signup form
-	{
-           width:100%;
-	}
 	.members img
 	{
 		width:74%;
        margin-left:13%;
 	   margin-right:13%;     
 	}
+
 	.photos li{
 		list-style: none;
 		/* float:left; */
 		margin:auto;
 		width:90%;
 	}
-	
+	.signup
+{
+width:100%;
+}
 	.photos img{
 		width:100%;
 	}
