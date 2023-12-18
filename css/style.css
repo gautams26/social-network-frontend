@@ -2,7 +2,8 @@ header{
 	background-image: linear-gradient(#0594d6, #216bb1 60%, #510cf3);
 	color:#fff;
 	min-height:100px;
-	padding-top:25px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
 header form{
